@@ -153,3 +153,72 @@ footer{
     flex-direction: column;
     line-height: 30px;
 }
+/*signup page styles*/
+#signuppage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(243, 235, 235);
+
+}
+#signuppage .container2 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container2 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container2 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.container2 label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.container2 input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: auto;
+}
+
+.container2 button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container2 button:hover {
+    background-color: #0056b3;
+}
