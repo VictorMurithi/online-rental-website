@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    align-items: center;
+    font-size:medium;
+    overflow-x: hidden;
+}
+/*navigation styling*/
+#navbar{
+    background-color:lightcyan;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+.logo{
+    font-size: larger;
+    font-weight: 700;
+}
+#navbar a{
+    color:black;
+    margin-right:45px;
+    text-decoration: none;
+}
+#navbar a:hover{
+    color:blue;
+}
+/*button styling*/
+button{
+    color:black;
+    padding: 5px;
+    border: none;
+    background-color:rgb(0, 195, 255) ;
+    border-radius:3px;
+    font-size: medium;
+    
+}
+button:hover{
+    color:white;
+    cursor: pointer;
+}
+#header{
+    text-align: center;
+    padding: 20px;
+    margin: 70px;
+}
+#searchbarcontainer{
+    height: 50vh;
+    width: 100vw;
+    background-image: url(./Images/pexels-photo-7464701.jpeg);
+    background-position: 0% 30%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+}
+#searchbar{
+    margin: auto;
+    text-align: center;
+
+}
+.search-bar input{
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.368);
+    width: 50em;
+    border-radius: 20px;
+    margin: auto;
+}
+.search-bar{
+    margin: auto;
+}
+::placeholder{
+    color: white;
+    text-align: center;
+}
+#container{
+    width:70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+#container h1,h2{
+    margin-bottom: 1em;
+    text-align: center;
+}
+#container #landlordslayout{
+    margin-bottom: 1em;
+}
+#renters{
+    width: 70vw;
+    margin: auto;
+
+    align-items: center;
+    padding: 50px;
+    line-height: 30px;
+}
+.landlords{
+    width: 70vw;
+    margin: auto;
+    align-items: center;
+    padding: 50px;
+    line-height: 30px;
+}
+.searchbycities{
+    width: 70vw;
+    margin: auto;
+    align-items: center;
+    padding: 50px;
+}
+.searchbycounty{
+    width: 70vw;
+    margin: auto;
+    align-items: center;
+    padding: 50px;
+}
+#placescontainer{
+    display:flex;
+}
+.listingcontainer{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.361);
+    align-items: center;
+}
+.listingcontainer div{
+    width: 50%;
+}
+.imgcontainer img{
+    width: 100%;
+    height: 100%;
+}
+.textcontainer{
+    text-align: center;
+}
+.textcontainer button{
+    margin-top: 1.5em;
+}
+/*footer styling*/
+footer{
+    justify-content: center;
+    background-color: lightcyan;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    line-height: 30px;
+}
